@@ -16,6 +16,12 @@
 		8400B34D1C7AEEFA00336736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8400B34B1C7AEEFA00336736 /* LaunchScreen.storyboard */; };
 		8400B3581C7AEEFA00336736 /* Text___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400B3571C7AEEFA00336736 /* Text___Tests.m */; };
 		8400B3631C7AEEFA00336736 /* Text___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400B3621C7AEEFA00336736 /* Text___UITests.m */; };
+		8400B3771C7AFD1D00336736 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8400B3731C7AFD1D00336736 /* 0.jpg */; };
+		8400B3781C7AFD1D00336736 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8400B3741C7AFD1D00336736 /* 1.jpg */; };
+		8400B37A1C7AFD1D00336736 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8400B3761C7AFD1D00336736 /* 2.jpg */; };
+		8400B3801C7B079300336736 /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400B37F1C7B079300336736 /* NewFeatureViewController.m */; };
+		8400B3821C7B082600336736 /* new_feature_finish_button_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8400B3811C7B082600336736 /* new_feature_finish_button_highlighted@2x.png */; };
+		8400B3841C7B082E00336736 /* new_feature_finish_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8400B3831C7B082E00336736 /* new_feature_finish_button@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		8400B35E1C7AEEFA00336736 /* Text引导页UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text引导页UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8400B3621C7AEEFA00336736 /* Text___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Text___UITests.m"; sourceTree = "<group>"; };
 		8400B3641C7AEEFA00336736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8400B3731C7AFD1D00336736 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		8400B3741C7AFD1D00336736 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		8400B3761C7AFD1D00336736 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		8400B37E1C7B079300336736 /* NewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureViewController.h; sourceTree = "<group>"; };
+		8400B37F1C7B079300336736 /* NewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureViewController.m; sourceTree = "<group>"; };
+		8400B3811C7B082600336736 /* new_feature_finish_button_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_finish_button_highlighted@2x.png"; sourceTree = "<group>"; };
+		8400B3831C7B082E00336736 /* new_feature_finish_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_finish_button@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +116,17 @@
 		8400B3391C7AEEFA00336736 /* Text引导页 */ = {
 			isa = PBXGroup;
 			children = (
+				8400B3731C7AFD1D00336736 /* 0.jpg */,
+				8400B3741C7AFD1D00336736 /* 1.jpg */,
+				8400B3761C7AFD1D00336736 /* 2.jpg */,
+				8400B3811C7B082600336736 /* new_feature_finish_button_highlighted@2x.png */,
+				8400B3831C7B082E00336736 /* new_feature_finish_button@2x.png */,
 				8400B33D1C7AEEFA00336736 /* AppDelegate.h */,
 				8400B33E1C7AEEFA00336736 /* AppDelegate.m */,
 				8400B3401C7AEEFA00336736 /* ViewController.h */,
 				8400B3411C7AEEFA00336736 /* ViewController.m */,
+				8400B37E1C7B079300336736 /* NewFeatureViewController.h */,
+				8400B37F1C7B079300336736 /* NewFeatureViewController.m */,
 				8400B3431C7AEEFA00336736 /* Main.storyboard */,
 				8400B3491C7AEEFA00336736 /* Assets.xcassets */,
 				8400B34B1C7AEEFA00336736 /* LaunchScreen.storyboard */,
@@ -250,8 +270,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8400B34D1C7AEEFA00336736 /* LaunchScreen.storyboard in Resources */,
+				8400B3771C7AFD1D00336736 /* 0.jpg in Resources */,
+				8400B3841C7B082E00336736 /* new_feature_finish_button@2x.png in Resources */,
+				8400B3821C7B082600336736 /* new_feature_finish_button_highlighted@2x.png in Resources */,
 				8400B34A1C7AEEFA00336736 /* Assets.xcassets in Resources */,
 				8400B3451C7AEEFA00336736 /* Main.storyboard in Resources */,
+				8400B3781C7AFD1D00336736 /* 1.jpg in Resources */,
+				8400B37A1C7AFD1D00336736 /* 2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8400B3801C7B079300336736 /* NewFeatureViewController.m in Sources */,
 				8400B3421C7AEEFA00336736 /* ViewController.m in Sources */,
 				8400B33F1C7AEEFA00336736 /* AppDelegate.m in Sources */,
 				8400B3481C7AEEFA00336736 /* Text___.xcdatamodeld in Sources */,
@@ -503,6 +529,7 @@
 				8400B3691C7AEEFA00336736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8400B36A1C7AEEFA00336736 /* Build configuration list for PBXNativeTarget "Text引导页Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +538,7 @@
 				8400B36C1C7AEEFA00336736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8400B36D1C7AEEFA00336736 /* Build configuration list for PBXNativeTarget "Text引导页UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +547,7 @@
 				8400B36F1C7AEEFA00336736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
